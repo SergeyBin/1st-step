@@ -160,7 +160,7 @@ td {
 .form-item label {
     display: block;
     font-size: 20px;
-    color: aqua;
+    color: rgba(0, 255, 255, 0.415);
 }
 
 .form-item input,
@@ -169,11 +169,12 @@ td {
     box-sizing: border-box;
     border: none;
     background: transparent;
-    border-bottom: 1px solid aqua;
+    border-bottom: 1px solid rgb(0, 255, 255);
     color: rgb(218, 89, 9);
     padding: 15px 0 10px;
     outline: none;
     font-family: inherit;
+    font-size: 18px;
 }
 
 .form-item input {
@@ -188,17 +189,17 @@ td {
 .btn {
     padding: 10px;
     margin-bottom: 10px;
-    background: #000;
-    color: rgb(218, 89, 9);
+    background: rgba(0, 255, 255, 0.415);
+    color: #000;
     border: none;
     border-radius: 5px;
     font-size: inherit;
     font-weight: 700;
     cursor: pointer;
-    transition: all .2s;
+    transition: all .3s;
 }
 
 .btn:hover {
     color: #000;
-    background: rgba(0, 255, 255, 0.575);
+    background: rgba(0, 255, 255, 0.837);
 }
